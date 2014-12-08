@@ -1,0 +1,5 @@
+C:\Projects\Midas\Midas.ObjectModel\bin\Debug\Midas.ObjectModel.dll
+C:\Projects\Midas\Midas.ObjectModel\bin\Debug\Midas.ObjectModel.pdb
+C:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.csprojResolveAssemblyReference.cache
+C:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.dll
+C:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.pdb
