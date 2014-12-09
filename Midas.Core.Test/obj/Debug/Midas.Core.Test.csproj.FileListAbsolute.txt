@@ -1,0 +1,10 @@
+F:\Projects\Midas\Midas.Core.Test\obj\Debug\Midas.Core.Test.csprojResolveAssemblyReference.cache
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.Core.Test.exe.config
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.Core.Test.exe
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.Core.Test.pdb
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.Core.dll
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.ObjectModel.dll
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.Core.pdb
+F:\Projects\Midas\Midas.Core.Test\bin\Debug\Midas.ObjectModel.pdb
+F:\Projects\Midas\Midas.Core.Test\obj\Debug\Midas.Core.Test.exe
+F:\Projects\Midas\Midas.Core.Test\obj\Debug\Midas.Core.Test.pdb

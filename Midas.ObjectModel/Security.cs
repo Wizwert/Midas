@@ -16,6 +16,11 @@ namespace Midas.ObjectModel
         private readonly decimal? _dividendYield;
         private readonly decimal? _priceChangePercent52Week;
 
+        public Security(string symbol) : this("", symbol, "", "", null, null, null)
+        {
+            
+        }
+
         public Security(string securityName, string symbol, string currency, string marketcap, decimal? priceToEarningsRatio, decimal? dividendYield, decimal? priceChangePercent52Week)
         {
             _securityName = securityName;

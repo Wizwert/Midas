@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Projects\Midas\Midas.UI.Wpf\obj\Debug\
+F:\Projects\Midas\Midas.UI.Wpf\obj\Debug\
 Midas.UI.Wpf
 none
 false
 DEBUG;TRACE
-C:\Projects\Midas\Midas.UI.Wpf\App.xaml
+F:\Projects\Midas\Midas.UI.Wpf\App.xaml
 2147514659
 
-111129874776
-13-1301660789
+111592504999
+16-480614592
 MainWindow.xaml;SecuritiesList.xaml;
 
 True

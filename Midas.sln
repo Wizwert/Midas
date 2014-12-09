@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midas.UI.Wpf", "Midas.UI.Wpf\Midas.UI.Wpf.csproj", "{F1DB277B-2705-4F3F-8FB4-41D5B89E9FDF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midas.ObjectModel", "Midas.ObjectModel\Midas.ObjectModel.csproj", "{CAEE5FFA-622F-40FE-9394-B11DCB958420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midas.Core", "Midas.Core\Midas.Core.csproj", "{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midas.Core.Test", "Midas.Core.Test\Midas.Core.Test.csproj", "{6B1B7C82-5393-4F9B-BA98-4D4470EFE431}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CAEE5FFA-622F-40FE-9394-B11DCB958420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEE5FFA-622F-40FE-9394-B11DCB958420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEE5FFA-622F-40FE-9394-B11DCB958420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1B7C82-5393-4F9B-BA98-4D4470EFE431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1B7C82-5393-4F9B-BA98-4D4470EFE431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1B7C82-5393-4F9B-BA98-4D4470EFE431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1B7C82-5393-4F9B-BA98-4D4470EFE431}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

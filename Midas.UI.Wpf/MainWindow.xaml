@@ -4,6 +4,10 @@
         xmlns:wpf="clr-namespace:Midas.UI.Wpf"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <wpf:SecuritiesList></wpf:SecuritiesList>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <wpf:SecuritiesList Grid.Column="0"/>
     </Grid>
 </Window>

@@ -36,6 +36,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -102,6 +104,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Midas.Core\Midas.Core.csproj">
+      <Project>{D70431F1-C1F5-4DAA-93B1-1AA7061E79F3}</Project>
+      <Name>Midas.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Midas.ObjectModel\Midas.ObjectModel.csproj">
       <Project>{CAEE5FFA-622F-40FE-9394-B11DCB958420}</Project>
       <Name>Midas.ObjectModel</Name>
