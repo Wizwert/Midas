@@ -15,7 +15,7 @@ namespace Midas.Core
     {
         private const string BaseUrl = "https://query.yahooapis.com/v1/public/yql?q={0}&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
 
-        public static void GetQuotes(IEnumerable<Security> quotes)
+        public static List<Security> GetQuotes(IEnumerable<Security> quotes)
         {
             var queryBase = "select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20({0})";
 
@@ -27,11 +27,20 @@ namespace Midas.Core
 
             XDocument doc = XDocument.Load(url);
 
+            var securities = new List<Security>();
+
             foreach(var descendant in doc.Descendants("quote"))
             {
                 var symbol = descendant.Attribute("symbol").Value;
-                var security = new Security(symbol);
+
+                var marketData = new SecurityMarketData(descendant);
+
+                var security = new Security(symbol, marketData);
+
+                securities.Add(security);
             }
+
+            return securities;
         }
     }
 }
