@@ -10,7 +10,7 @@ namespace Midas.Core.Test
     {
         static void Main(string[] args)
         {
-            YQLDataProvider.GetQuotes(DummyDataProvider.GetDummySecurities());
+            YQLDataProvider.UpdateQuotes(DummyDataProvider.GetDummySecurities());
         }
     }
 }

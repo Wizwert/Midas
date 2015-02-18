@@ -38,3 +38,7 @@ F:\Projects\Midas\Midas.UI.Wpf\obj\Debug\Midas.UI.Wpf.Properties.Resources.resou
 F:\Projects\Midas\Midas.UI.Wpf\obj\Debug\Midas.UI.Wpf.csproj.GenerateResource.Cache
 F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\Midas.Core.dll
 F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\Midas.Core.pdb
+F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\EntityFramework.dll
+F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\EntityFramework.xml
+F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\Midas\Midas.UI.Wpf\bin\Debug\EntityFramework.SqlServer.xml

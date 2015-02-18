@@ -29,5 +29,10 @@ namespace Midas.UI.Wpf
 
             DataContext = _viewModel;
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            _viewModel.RefreshSecurities();
+        }
     }
 }

@@ -8,3 +8,8 @@ F:\Projects\Midas\Midas.ObjectModel\bin\Debug\Midas.ObjectModel.pdb
 F:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.csprojResolveAssemblyReference.cache
 F:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.dll
 F:\Projects\Midas\Midas.ObjectModel\obj\Debug\Midas.ObjectModel.pdb
+F:\Projects\Midas\Midas.ObjectModel\bin\Debug\Midas.ObjectModel.dll.config
+F:\Projects\Midas\Midas.ObjectModel\bin\Debug\EntityFramework.dll
+F:\Projects\Midas\Midas.ObjectModel\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\Midas\Midas.ObjectModel\bin\Debug\EntityFramework.xml
+F:\Projects\Midas\Midas.ObjectModel\bin\Debug\EntityFramework.SqlServer.xml

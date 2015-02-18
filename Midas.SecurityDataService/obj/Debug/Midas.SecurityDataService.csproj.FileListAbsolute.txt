@@ -1,0 +1,5 @@
+F:\Projects\Midas\Midas.SecurityDataService\bin\Debug\Midas.SecurityDataService.exe.config
+F:\Projects\Midas\Midas.SecurityDataService\bin\Debug\Midas.SecurityDataService.exe
+F:\Projects\Midas\Midas.SecurityDataService\bin\Debug\Midas.SecurityDataService.pdb
+F:\Projects\Midas\Midas.SecurityDataService\obj\Debug\Midas.SecurityDataService.exe
+F:\Projects\Midas\Midas.SecurityDataService\obj\Debug\Midas.SecurityDataService.pdb

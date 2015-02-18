@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Midas.Core;
-using Midas.ObjectModel;
+using Midas.ObjectModel.Models;
 
 namespace Midas.UI.Wpf
 {
@@ -18,15 +18,26 @@ namespace Midas.UI.Wpf
 
         public SecuritiesListViewModel()
         {
-            SetUpFakeData();
+            LoadSecurities(Securities);
         }
 
-        private void SetUpFakeData()
+        private void LoadSecurities(ObservableCollection<Security> securities)
         {
-            foreach(var security in DummyDataProvider.GetDummySecurities())
+            Securities.Clear();
+
+            using(var context = new MidasContext())
             {
-                Securities.Add(security);
+                foreach(var security in context.Securities.Include("MarketData").Include("MarketData.MarketDataType"))
+                {
+                    Securities.Add(security);
+                }
             }
+        }
+
+        public void RefreshSecurities()
+        {
+            YQLDataProvider.UpdateQuotes(DummyDataProvider.GetDummySecurities());
+            LoadSecurities(Securities);
         }
     }
 }
